@@ -2,7 +2,7 @@ alert ('Olá mundo!')
 document.querySelector('.tecla_pom')
 document.querySelector(‘#som_tecla_pom’).play();
 
-
+listaDeTeclas[2].classList.add(‘ativa’)
 function tocasSomPom () {
 document.querySelector('#som_tecla_pom').play();
 }
